@@ -1,0 +1,590 @@
+/*  ************ Header Section ***************  */
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-header{
+  height: 65vh;
+  width: auto;
+  background-color: #5de6de;
+  background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+/*   Horizontal Lists   */
+
+.nav-bar{
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.nav-bar li{
+  display: inline-block;
+  margin:20px 20px 20px 0px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.nav-bar li a{
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.4s;
+  border-bottom 4s;
+}
+
+.nav-item a:hover{
+  color: #74F2CE;
+  font-size: 20px;
+  border-bottom: 1px solid #74F2CE;
+}
+
+/*      Hamburger Menu      */
+
+#hamburger{
+  margin-left: 20px;
+  padding-top: 20px;
+  font-size: 25px;
+  display: none; /*It makes hamburger button hidden*/
+  width: 26px;
+}
+#toggle{
+  display: none;
+}
+
+/*   My name   */
+
+.my-name{
+  height: auto;
+  width: auto;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-weight: 800px;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 12vh;
+}
+
+.my-name:hover{
+  color: #FFD8CB;
+}
+
+/*   social-media icons   */
+
+.social-icons li{
+      margin-top: -70px;
+}
+
+
+.social-icons li a img{
+      height: 23px;
+      width: 23px;
+      padding: 7px;
+}
+
+.social-icons li a:hover{
+  opacity: 0.5;
+}
+
+.social-icons li a img:hover{
+  height: 19px;
+  width: 19px;
+}
+/* ***************About Section********************** */
+
+/* My Picture */
+
+#about{
+  height: auto;
+  width: 100%;
+  position:relative;
+}
+
+.my-pic{
+  height: 14rem;
+  width: 14rem;
+  margin: auto;
+  /* margin-top:-17vh; */
+}
+
+.my-pic img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow:0px 0px 8px 7px #D5D8DC;
+}
+
+/*    About details  */
+
+.about-text{
+  height: auto;
+  width: 100%;
+  padding-bottom: 140px;
+  margin-top:-17vh;
+}
+
+.about-text p{
+  color: #7F8C8D ;
+  width: 70%;
+  margin-left: 15%;
+  padding-top: 10vh;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  word-spacing: 0.3rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.special-text{
+  color: #2471A3;
+}
+
+/* **************Skills  Section******************* */
+
+section{
+  height:auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+
+section:nth-child(2n){
+  background-color: #F2F3F4;
+}
+
+section:nth-child(2n+1){
+  background-color: white;
+}
+
+ .skill-logo{
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+ .make-inline{
+  display: inline-block;
+  padding: 6px;
+}
+
+ .skill-text{
+  font-size: 35px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #065BB1;
+}
+
+.outer-box{
+  padding: 0px;
+  margin-top: -1vh;
+  text-align: center;
+}
+
+/*   Skills Progress   */
+
+.skill-display{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.skill-progress{
+  background-color: lightgrey;
+  width: 13rem;
+  height: 2rem;
+  border-radius: 1rem;
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.3);
+  align-content: center;
+  margin: 40px 10px 40px 10px;
+}
+
+.skill-name span{
+  color: white;
+   padding: 15px;
+  line-height: 28px;
+}
+
+/* skill progress colour */
+.mb-blue{
+  background-color: #2874A6;
+}
+.mb-orange{
+  background-color: #F18514;
+}
+.mb-green{
+  background-color: #229954;
+}
+.mb-red{
+  background-color: #CB4335;
+}
+.mb-purple{
+  background-color: #7D3C98;
+}
+.mb-brown{
+  background-color: #922B21;
+}
+.mb-yellow{
+  background-color: #F1C40F;
+}
+.mb-coral{
+  background-color: #F08080;
+}
+/* Precentage Classes */
+
+.eighty-five-percent{
+  width: 85%;
+  height: inherit;
+  border-radius: 1rem 0rem 0rem 1rem;
+  box-shadow: 10px 0 20px -3px rgba(0,0,0,0.3);
+}
+
+/* **************WORK EXPERIENCE********************* */
+
+/*   Main Outer Timeline   */
+.timeline{
+  position: relative;
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+/* Inner timeline-box */
+.timeline-box{
+  position: relative;
+  margin: 5px;
+  width: 40%;
+  left: 5%;
+  min-height: 150px;
+  font-family: sans-serif;
+}
+
+.timeline-box:nth-child(2n){
+  left:53%;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1; /*used to move dots above line*/
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -13%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9.5%;
+}
+
+.timeline-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.timeline-img img{
+  height: 2rem;
+  width: 2rem;
+}
+
+.timeline-img{
+  height: 25px;
+  margin-top: 5px;
+}
+
+.timeline-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* width: auto; */
+}
+
+.timeline-heading p{
+  margin: 0;
+}
+
+.timeline-heading .designation{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #065BB1;
+}
+
+.timeline-heading .cmp-name{
+  color: #FF5722 ;
+}
+
+.month{
+  color: grey;
+  font-size: 15px;
+}
+
+.designation-content{
+  text-align: justify;
+  word-spacing: 0.3rem;
+  line-height: 1.4rem;
+}
+
+/* Timeline Divider */
+.timeline-divider{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 65%;
+  width: 0;
+  border: 1.5px dashed #04D3D3 ;
+}
+
+.dot{
+  width:10px;
+  height:10px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  margin-bottom: 248px;
+  margin-left: -5px;
+  margin-top: -30px;
+}
+
+.timeline-aeroplane{
+  position: sticky;
+  top:35%;
+  transform: rotate(90deg);
+  height: 23px;
+  width: 23px;
+  z-index: 1;
+}
+.timeline-aeroplane img{
+  margin-top: 11px;
+  height: 23px;
+  width: 23px;
+}
+
+/* **************Portfolio Section************************ */
+.portfolio-content{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.portfolio-img img{
+  width: auto;
+  height: 30vh;
+}
+
+.portfolio-detail{
+  width: 0;
+  height: 0;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  position: relative;
+  top:-25px;
+  left: 50px;
+  overflow: hidden;
+}
+
+.portfolio-img:hover{
+   box-shadow: 4px 4px 4px 4px grey;
+   transition: 0.7s;
+   opacity: 0.3;
+   border-radius: 20%;
+   background-color: grey;
+}
+
+.portfolio-img:hover .portfolio-detail{
+    width: 240px;
+    height: auto;
+    opacity: 1;
+}
+
+/* *****************Contact Section*************************   */
+
+#contact{
+   background: linear-gradient(75deg,#0890B5 48%,#425389);
+}
+
+.contact-section{
+  width: 70%;
+ display: flex;
+ flex-direction: row;
+ margin-bottom: 40px;
+}
+
+.user-detail{
+  width: 40vw;
+  height: auto;
+}
+.user-detail #text-input{
+  display: block;
+  border: none;
+  cursor: text;
+  outline: none;  /*remove outline when input field is clicked*/
+  color: white;  /*change color of text inside input field*/
+  font-family:cursive;
+  border-bottom: 1px solid white;
+  background-color: #0890B5;
+  margin: 25px 2px;
+  padding: 0px 13px;
+  width: 75%;
+  height:30px;
+}
+
+.user-detail #text-input:hover{
+  border-bottom: 1px solid black;
+}
+
+::placeholder {
+  color: #D5DBDB;
+  opacity: 1;
+}
+
+.user-detail input[type="submit"]{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 15px 2px;
+    padding: 10px;
+    background-color: #0890B5;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.user-detail input[type="submit"]:hover{
+  background-color: #0467BE;
+  border: 1px solid #0467BE;
+  transition: 0.3s;
+}
+
+.submit-button{
+  margin-left: 25%;
+}
+
+/*   Get in touch   */
+
+.get-in-touch{
+  color: white;
+  width: 40%;
+}
+
+ .details-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+ .details-container div p{
+   margin: 0;
+   padding: 0;
+ }
+
+ .heading{
+   font-size: 20px;
+   font-family: sans-serif;
+   text-transform: capitalize;
+   font-weight: bold;
+ }
+.heading-detail{
+   font-size: 12px;
+   font-family: sans-serif;
+}
+
+/*         Media Queries          */
+
+@media screen and (max-width:600px){
+
+     .main-header{
+       height: 110vh;
+     }
+      #hamburger{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        cursor: pointer;
+        transition: 1s;
+      }
+
+      #toggle:checked + .nav-item{
+        display: block;
+      }
+        #toggle:target{
+          height: 45vh;
+        }
+
+      .nav-item{
+        display: none;
+      }
+
+      .nav-item li {
+        display: flex;
+        flex-direction: column;
+      }
+
+       .social-icons li a img{
+        height: 18px;
+        width: 18px;
+        padding: 3px;
+       }
+
+      .timeline-divider{
+         left: 8%;
+      }
+
+       .timeline-box{
+         left:12% !important;
+         width: 80%;
+      }
+
+/* Write this or make left of timeline-box as important so that it will override all other */
+      /* .timeline-box:nth-child(2n){
+        left: 12%;
+      } */
+
+      .timeline-box:nth-child(2n+1)::after{  /* .timeline-box::after{ left: -8.4% !important; } We can use this instead of both below statements */
+        left: -8.4%;
+      }
+
+      .timeline-box:nth-child(2n)::after{
+        left: -8.4%;
+      }
+
+      .contact-section{
+        display: inline-block;
+      }
+
+      .user-detail{
+        width: 100%;
+      }
+
+      .get-in-touch{
+        width: 100%;
+      }
+
+
+
+}
